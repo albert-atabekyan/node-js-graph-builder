@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Сервис для построения графиков</title>
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Построение графиков</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="static/html/effective.html">Графики эффективной температуры и теплоощущения</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id='Chart'></div>
+
+        <div class="container">
+            <div class="container__form"></div>
+            <div class="container__table">
+                <table id="data-table">
+                    <tr>
+                        <th>Дата начала</th>
+                        <th>Дата конца</th>
+                        <th>Датчик</th>
+                        <th>Серия</th>
+                        <th>Показатель</th>
+                        <th>Тип</th>
+                        <th>Осреднение</th>
+                        <th>Min</th>
+                        <th>Max</th>
+                        <th>Удалить</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>©PositiveTechnologes, 2022. Все права защищены.</p>
+        <a href="static/html/effective.html">Графики эффективной температуры и теплоощущения</a>
+    </footer>
+    <script type="module" src='static/script.js'></script>
+</body>
+
+</html>

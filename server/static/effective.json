@@ -1,0 +1,1 @@
+[{"name":"hydra","data":["BME280_temp","BME280_humidity"],"countInstances":7},{"name":"rosa","data":["temperature","humidity"],"countInstances":1},{"name":"studios","data":["BME280_temp","BME280_humidity"],"countInstances":1},{"name":"weather_api","data":["temp","humidity"],"countInstances":1}]
