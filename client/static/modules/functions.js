@@ -113,7 +113,7 @@ const functions = {
                 j++;
             }
 
-            let sum = tempArr.reduce((a, b) => parseInt(a) + parseInt(b), 0);
+            let sum = tempArr.reduce((a, b) => parseFloat(a) + parseFloat(b), 0);
             let avg = sum / tempArr.length;
             dataArr.push(avg);
         }
